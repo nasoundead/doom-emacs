@@ -53,9 +53,9 @@ missing) and shouldn't be deleted.")
       ;; I omit Marmalade because its packages are manually submitted rather
       ;; than pulled, so packages are often out of date with upstream.
       package-archives
-      `(("gnu"          . "https://elpa.gnu.org/packages/")
-        ("melpa"        . "https://melpa.org/packages/")
-        ("org"          . "https://orgmode.org/elpa/")))
+      `(("gnu"          . "http://elpa.emacs-china.org/gnu/")
+        ("melpa"        . "http://elpa.emacs-china.org/melpa/")
+        ("org"          . "http://elpa.emacs-china.org/org/")))
 
 ;; Don't save `package-selected-packages' to `custom-file'
 (advice-add #'package--save-selected-packages :override
